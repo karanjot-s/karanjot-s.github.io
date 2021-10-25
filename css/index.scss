@@ -1,3 +1,33 @@
+$breakpoint-tablet: 769px;
+@media (max-width: $breakpoint-tablet) {
+  main p .btn {
+    margin: initial !important;
+    margin-top: 1rem !important;
+  }
+
+  main .person {
+    height: 79% !important;
+  }
+
+  main .desk {
+    height: 48% !important;
+    right: 47% !important;
+  }
+
+  main p {
+    top: 20% !important;
+  }
+
+  .about-content {
+    flex-direction: column !important;
+    top: 10% !important;
+
+    div {
+      width: 60% !important;
+    }
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
